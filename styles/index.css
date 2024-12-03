@@ -75,7 +75,7 @@ main {
 .cards .card {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-white-fa);
+  background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
   padding: 28px;
