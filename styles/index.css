@@ -1,0 +1,51 @@
+:root {
+  --color-grapefruit-red: #ea5454;
+  --color-medium-turquoise: #44d3d2;
+  --color-yellow-orange: #fcae4a;
+  --color-blue-gray: #549ef2;
+  --color-purple-fog: #4d4f62;
+  --line-height-23: 23px;
+  --letter-spacing-025: 0.25px;
+  --letter-spacing-01: 0.1px;
+  --letter-spacing-009: 0.09px;
+  --letter-spacing-0: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-cream);
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 16px;
+}
+
+footer .attribution {
+  text-align: center;
+}
+
+footer a {
+  color: var(--color-gunmetal);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+footer a:hover {
+  color: var(--color-deep-aquamarine);
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+}
